@@ -1,0 +1,26 @@
+
+# Python virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Dataset files (keep locally)
+data/*.csv
+data/*.CSV
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Environment variables and local configuration
+.env
+.env.*
+
+# Editor and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
